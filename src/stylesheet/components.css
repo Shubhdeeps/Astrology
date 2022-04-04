@@ -1,0 +1,133 @@
+
+
+
+
+.App{
+    background: #9AB5C1;
+    z-index: 1;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.body-component{
+    background: #CACACA;
+    height: 100vh;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.body{
+    position: relative;
+    top: 30%;
+    transition: 2s ease;
+}
+
+.body-selected{
+    position: relative;
+    top: 2%;
+}
+
+.body-selected h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h3{
+    color: #313A3F !important;
+}
+
+button{
+    width: 340px;
+    color: #1F2D34 !important;
+    font-weight: 500 !important;
+    background: #CACACA !important;
+}
+button:hover{
+    background: rgba(23,85,113,1) !important;
+    color: wheat !important;
+}
+
+.list-extension{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+   
+}
+
+.List{
+    position: relative;
+    z-index: 2;
+}
+
+.discription{
+    position: relative;
+    z-index: 1;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 80%;
+    
+}
+.discription div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.discription div div:hover  p {
+    font-size: 24px !important;
+    transition: 0.5s ease;
+
+}
+.discription div div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 0px;
+    background: rgb(219, 179, 76) !important;
+}
+.sign{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50% !important;
+    background: rgb(207, 207, 207) !important;
+
+}
+
+@media (max-width: 500px) {
+    .sign{
+        display: none;
+    }
+    .body{
+        position: relative;
+        top: 15%;
+    }
+  }
+
+
+.sign:hover p{
+    font-size: 18px !important;
+}
+.signs{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
+    
+}
+
+.sign p{
+    font-size: 8px;
+    transition: 0.5s ease;
+}
+
+.load{
+    height: 50vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-image{
+    margin-right: 30px;
+}
